@@ -193,6 +193,8 @@
 'Assets/ImportedAssets/PQAssets/Query-Chan-SD/Scripts/QuerySDController/QuerySDMecanimController.cs'
 'Assets/ImportedAssets/PQAssets/Query-Chan-SD/Scripts/QuerySDController/QuerySDSoundController.cs'
 'Assets/QuadController.cs'
+'Assets/QuadMotor.cs'
+'Assets/SwitchCam.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'

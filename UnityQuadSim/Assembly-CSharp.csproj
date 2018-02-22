@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F933133D-2FC2-6B25-EE5A-4412C2A2C6AE}</ProjectGuid>
+    <ProjectGuid>{969405A9-FA3D-292F-8A92-0030598F79CE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,21 +51,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Props\99_ShowTime\Scripts\DetectPanel.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Props\99_ShowTime\Scripts\PanelPrefCollider.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\CameraAction.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\FaceToCamera.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\GUIControllerSD.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\RotateProp.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\GUIController\ShowTimeController.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDEmotionalController.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDMecanimController.cs" />
-     <Compile Include="Assets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDSoundController.cs" />
-     <None Include="Assets\PQAssets\Query-Chan-SD\license_jp.txt" />
-     <None Include="Assets\PQAssets\Query-Chan-SD\Models\SD_QUERY_49_Ooita\Textures\_README.txt" />
-     <None Include="Assets\PQAssets\Query-Chan-SD\Models\SD_QUERY_12_Okayama\Unlit_double.shader" />
-     <None Include="Assets\PQAssets\Query-Chan-SD\license_en.txt" />
-     <None Include="Assets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Props\99_ShowTime\Scripts\DetectPanel.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Props\99_ShowTime\Scripts\PanelPrefCollider.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\GUIController\CameraAction.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\GUIController\FaceToCamera.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\GUIController\GUIControllerSD.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\GUIController\RotateProp.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\GUIController\ShowTimeController.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDEmotionalController.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDMecanimController.cs" />
+     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDSoundController.cs" />
+     <Compile Include="Assets\QuadController.cs" />
+     <Compile Include="Assets\QuadMotor.cs" />
+     <Compile Include="Assets\SwitchCam.cs" />
+     <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\license_jp.txt" />
+     <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Models\SD_QUERY_49_Ooita\Textures\_README.txt" />
+     <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Models\SD_QUERY_12_Okayama\Unlit_double.shader" />
+     <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\license_en.txt" />
+     <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
