@@ -61,9 +61,9 @@
      <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDEmotionalController.cs" />
      <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDMecanimController.cs" />
      <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDSoundController.cs" />
-     <Compile Include="Assets\QuadController.cs" />
-     <Compile Include="Assets\QuadMotor.cs" />
-     <Compile Include="Assets\SwitchCam.cs" />
+     <Compile Include="Assets\Scripts\QuadController.cs" />
+     <Compile Include="Assets\Scripts\QuadMotor.cs" />
+     <Compile Include="Assets\Scripts\SwitchCam.cs" />
      <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\license_jp.txt" />
      <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Models\SD_QUERY_49_Ooita\Textures\_README.txt" />
      <None Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Models\SD_QUERY_12_Okayama\Unlit_double.shader" />

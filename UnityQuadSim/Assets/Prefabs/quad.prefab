@@ -133,7 +133,7 @@ GameObject:
   m_Layer: 0
   m_Name: quad
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -961,7 +961,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &65561553448384872
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1010,6 +1010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  lookSensitivity: 3
 --- !u!114 &114849872379118364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1021,6 +1022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb1405cbce2449fab9f27e3080fb1f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
 --- !u!135 &135609238297866050
 SphereCollider:
   m_ObjectHideFlags: 1
