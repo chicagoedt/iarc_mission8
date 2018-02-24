@@ -330,6 +330,7 @@
     <Compile Include="Assets\ImportedAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QuerySDSoundController.cs" />
     <Compile Include="Assets\Scripts\QuadController.cs" />
     <Compile Include="Assets\Scripts\QuadMotor.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\RunnerController.cs" />
     <Compile Include="Assets\Scripts\RunnerMovement.cs" />
     <Compile Include="Assets\Scripts\SwitchCam.cs" />

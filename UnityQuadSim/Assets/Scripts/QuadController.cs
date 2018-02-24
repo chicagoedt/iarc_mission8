@@ -26,11 +26,11 @@ public class QuadController : MonoBehaviour {
 
 		//_yMove is declared above bc we do not want to reinitialize it constantly
 		if(Input.GetMouseButtonDown(0)) { //Checks if left mouse button is presssed
-			_yMov += 0.1f;
+			_yMov += 0.05f;
 		}
 
 		if(Input.GetMouseButtonDown(1)) { //Checks if right mouse button is presssed
-			_yMov -= 0.1f;
+			_yMov -= 0.05f;
 		}
 				
 		float _zMov = Input.GetAxisRaw("Vertical");
