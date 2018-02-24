@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{E5ECA92D-71CF-C2E3-F619-62E86FFBAF0C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Restart.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/QuadController.cs">
     <Files>
-      <File FileName="Assets/Scripts/QuadController.cs" Line="15" Column="5" />
+      <File FileName="Assets/Scripts/QuadController.cs" Line="29" Column="17" />
       <File FileName="Assets/Scripts/QuadMotor.cs" Line="8" Column="67" />
       <File FileName="Assets/Scripts/RunnerController.cs" Line="40" Column="56" />
       <File FileName="Assets/Scripts/RunnerMovement.cs" Line="13" Column="5" />
       <File FileName="Assets/Scripts/SwitchCam.cs" Line="77" Column="3" />
-      <File FileName="Assets/Scripts/Restart.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Restart.cs" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

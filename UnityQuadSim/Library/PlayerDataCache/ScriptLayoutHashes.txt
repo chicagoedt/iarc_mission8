@@ -123,6 +123,7 @@ ea792fb05353364175ba962bdbcc123d Assembly-CSharp.dll:.QuerySDSoundController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 521b2d9ec7b9e06b1cea7ba44f80d57a Assembly-CSharp.dll:.QuadController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Restart
 a1b778628717105ef66ed251d8e33ffd Assembly-CSharp.dll:.QuerySDEmotionalController
 3fc480672720aa7e41fed849076c4f05 Assembly-CSharp.dll:.DetectPanel
 4216c8cdd7ddb81e5ec2515a5136258b Assembly-CSharp.dll:.RotateProp
@@ -154,4 +155,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 2124af75d6b3afb90d3c8471b98e9f78 Assembly-CSharp.dll:.QuadMotor
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 a0b2b751529cb1a2978a0b9d4d0264cc Assembly-CSharp.dll:.ShowTimeController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Restart
