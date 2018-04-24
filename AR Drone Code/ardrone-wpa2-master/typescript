@@ -1,0 +1,204 @@
+Script started on Mon 05 Mar 2018 09:14:17 PM CST
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script [K/connect -h
+                              
+     __     __  __  __      __
+ /\ |__)   |  \|__)/  \|\ ||_ 
+/--\| \ .  |__/| \ \__/| \||__
+
+              WPA/WPA2 support
+
+This script connects the AR Drone to a WPA/WPA2 secured network.
+
+Usage: script/connect "<essid>" -p "<password>" [-a <address>] [-d <droneip>]
+  <essid>         Name of the WPA2 network to connect the drone to.
+  <password>      Password of the network.
+  <address>       (optional) Address to be set on the drone when connected to the network.
+                    Use a different address than the router's default.
+                    Set to "auto" or "dhcp" to let the router DHCP server auto-assign an IP.
+                    Default is "auto".
+  <droneip>       (optional) Current drone's ip address.
+                    Default is 192.168.1.1
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect -hudo npm install express[8Pnode autocode.jssudo npm install express[7Pcript/connect -h[Kscrupt [K[K[K[Kipt/connect "Home[K[K[K[KNetgear[K[K[K[K[K[KETGEAR_Gu est" pt[K[K-p "" -a dhcp -d [K 192.168.1.1
+                              
+     __     __  __  __      __
+ /\ |__)   |  \|__)/  \|\ ||_ 
+/--\| \ .  |__/| \ \__/| \||__
+
+              WPA/WPA2 support
+
+This script connects the AR Drone to a WPA/WPA2 secured network.
+
+Usage: script/connect "<essid>" -p "<password>" [-a <address>] [-d <droneip>]
+  <essid>         Name of the WPA2 network to connect the drone to.
+  <password>      Password of the network.
+  <address>       (optional) Address to be set on the drone when connected to the network.
+                    Use a different address than the router's default.
+                    Set to "auto" or "dhcp" to let the router DHCP server auto-assign an IP.
+                    Default is "auto".
+  <droneip>       (optional) Current drone's ip address.
+                    Default is 192.168.1.1
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ 
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "NETGEAR_Gueest" -p "" -a dhcp -d 192.168.1.1
+                              
+     __     __  __  __      __
+ /\ |__)   |  \|__)/  \|\ ||_ 
+/--\| \ .  |__/| \ \__/| \||__
+
+              WPA/WPA2 support
+
+This script connects the AR Drone to a WPA/WPA2 secured network.
+
+Usage: script/connect "<essid>" -p "<password>" [-a <address>] [-d <droneip>]
+  <essid>         Name of the WPA2 network to connect the drone to.
+  <password>      Password of the network.
+  <address>       (optional) Address to be set on the drone when connected to the network.
+                    Use a different address than the router's default.
+                    Set to "auto" or "dhcp" to let the router DHCP server auto-assign an IP.
+                    Default is "auto".
+  <droneip>       (optional) Current drone's ip address.
+                    Default is 192.168.1.1
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "NETGEAR_Gueest" -p "" -a dhcp -d 192.168.1.1[C[1P[1P[1P[1P[1@1[1@9[1@9[1@2[1P[1P[1@2[1@.[1@1[1@6[1@8[1@.[1@1[1@.[1@6[1@9
+                              
+     __     __  __  __      __
+ /\ |__)   |  \|__)/  \|\ ||_ 
+/--\| \ .  |__/| \ \__/| \||__
+
+              WPA/WPA2 support
+
+This script connects the AR Drone to a WPA/WPA2 secured network.
+
+Usage: script/connect "<essid>" -p "<password>" [-a <address>] [-d <droneip>]
+  <essid>         Name of the WPA2 network to connect the drone to.
+  <password>      Password of the network.
+  <address>       (optional) Address to be set on the drone when connected to the network.
+                    Use a different address than the router's default.
+                    Set to "auto" or "dhcp" to let the router DHCP server auto-assign an IP.
+                    Default is "auto".
+  <droneip>       (optional) Current drone's ip address.
+                    Default is 192.168.1.1
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "NETGEAR_Gueest" -p "" -a 192.168.1.69 -d 192.168.1.1[C[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "[C[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p ""[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" -[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" -a[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" -a [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CH" -p "" -a[1@ [A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" -p "" -[1@a[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm" -p "" [1@-[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce" -p ""[1@ [A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C " -p "[1@"[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3" -p [C[1@"[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6" -p[1@ [A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4" -[1@p[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4" [1@-[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C^C
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ udd[K[K[K4[Kscript/connect "NETGEAR_Gueest" -p "" -a 192.168.1.69 -d 192.168.1.1[C[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "[C[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p ""[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" -[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" -a[1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -p "" -a [1P[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CH" -p "" -a[1@ [A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" -p "" -[1@a[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm" -p "" [1@-[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce" -p ""[1@ [A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C " -p "[1@"[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3" -p [C[1@"[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6" -p[1@ [A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4" -[1@p[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4" [1@-[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[1@C[1@u[1@d[1@d[1@l[1@e[1@s[1@0[1@7[1@2[1@1
+ESSID: Home 3644
+PASSWORD: Cuddles0721
+ADDRESS: 192.168.1.69
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ tele[Knet 192.168.1.1[K69
+Trying 192.168.1.69...
+telnet: Unable to connect to remote host: Network is unreachable
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ telnet 192.168.1.69
+Trying 192.168.1.69...
+telnet: Unable to connect to remote host: No route to host
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ telnet 192.168.1.69
+Trying 192.168.1.69...
+telnet: Unable to connect to remote host: No route to host
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ telnet 192.168.1.69script/connect "Home 3644"  -p "Cuddles0721" -a 192.168.1.69 -d 192.168.1.1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K4[Kscript/connect "NETGEAR_Gueest" -p "" -a 192.168.1.69 -d 192.168.1.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdhcp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-h[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"NETGEAR_Gueest" -p "" -a dhcp -d 192.168.1.1[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-h[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"NETGEAR_Gueest" -p "" -a dhcp -d 192.168.1.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@192.168.1.69[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctelnet 192.168.1.69[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knet 1*5[K[K92.168.1.69
+Trying 192.168.1.69...
+telnet: Unable to connect to remote host: No route to host
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ telnet 192.168.1.69[Ktelnet 192.168.1.69[Kscript/connect "NETGEAR_Gueest" -p "" -a 192.168.1.69 -d 192.168.1.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdhcp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@192.168.1.69[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdhcp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@192.168.1.69[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdhcp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@192.168.1.69[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/connect "NETGEAR_Gueest" -p "" -a 192.168.1.69 -d 192.168.1.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pdhcp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-h[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo npm install express[8Pnode autocode.jssudo npm install express[7Pcript/connect -h"NETGEAR_Gueest" -p "" -a dhcp -d 192.168.1.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@192.168.1.69[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctelnet 192.168.1.69[Kscript [K/connect [K "Home 363[K44"  -p "Ciu[K[Kuddles0721" -a DHCP[K[K[K[Kdhcp =d [K[K[K[K[K[K[K[K192.196[K[K68.1. [K69 -d 192.168.1.1
+ESSID: Home 3644
+PASSWORD: Cuddles0721
+ADDRESS: 192.168.1.69
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "Home 3644"  -p "Cuddles0721" -a 192.168.1.69 -d 192.168.1.1[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [7Ptelnet 192.168.1.69
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Trying 192.168.1.69...
+telnet: Unable to connect to remote host: No route to host
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ telnet 192.168.1.69script/connect "Home 3644"  -p "Cuddles0721" -a 192.168.1.69 -d 192.168.1.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdhcp
+ESSID: Home 3644
+PASSWORD: Cuddles0721
+ADDRESS: 0.0.0.0
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "Home 3644"  -p "Cuddles0721" -a dhcp[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [7Ptelnet 192.168.1.69
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K 0.0.0.0
+Trying 0.0.0.0...
+telnet: Unable to connect to remote host: Connection refused
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ telnet 0.0.0.0[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscuo[K[Kipt/connect "Home_3644"  =t [K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"  -p "Ci[Kuddles0721" -a 192.135[K[K[K168.[K[K[K[K[K[K2.138.[K[K[K68.1.[K[K[K[K[K[K[K[K[K[K[K dhcp -d 192.135[K[K68
+bash: scipt/connect: No such file or directory
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ scipt/connect "Home_3644" --p "Cuddles0721" -a dhcp -d 192.168.1.1
+bash: scipt/connect: No such file or directory
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ scipt/connect "Home_3644" --p "Cuddles0721" -a dhcp -d 192.168.1.1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cript/connect "Home_3644" [1@-[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [C[C[C
+
+ESSID: Home_3644
+PASSWORD: Cuddles0721
+ADDRESS: 0.0.0.0
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "Home_3644"  -p "Cuddles0721" -a dhcp -d 192.168.1.1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/connect "Net[Kt[K[KETGEAR-Gu est" -p "Password" -a 192.168.1.2 -d 192.168.1.1
+ESSID: NETGEAR-Guest
+PASSWORD: Password
+ADDRESS: 192.168.1.2
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "NETGEAR-Gueest" -p "Password" -a 192.168.1.2 -d 192.168.1.1[C[C[C[C[C[C[C[A]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[KP[KDrone" -p  "Password" -a h[Kdhcp -d 192.168.1.1
+ESSID: Drone
+PASSWORD: Password
+ADDRESS: 0.0.0.0
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "Drone" -p ""Password" -a dhcp -d 192.168.1.1[C[1P[1P[1P[1P[1@1[1@9[1@2[1@.[1@1[1@3[1P[1@6[1@8
+ESSID: Drone
+PASSWORD: Password
+ADDRESS: 192.168
+DRONE_IP: 192.168.1.1
+telnet: Unable to connect to remote host: Network is unreachable
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "Drone" -p ""Password" -a 192.168 -d 192.168.1.1[1@.[1@1[1@.[1@1[1P[1@2[1P[1@p
+ESSID: Drone
+PASSWORD: password
+ADDRESS: 192.168.1.2
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ scip[K[Kript/connec[Kct -h
+                              
+     __     __  __  __      __
+ /\ |__)   |  \|__)/  \|\ ||_ 
+/--\| \ .  |__/| \ \__/| \||__
+
+              WPA/WPA2 support
+
+This script connects the AR Drone to a WPA/WPA2 secured network.
+
+Usage: script/connect "<essid>" -p "<password>" [-a <address>] [-d <droneip>]
+  <essid>         Name of the WPA2 network to connect the drone to.
+  <password>      Password of the network.
+  <address>       (optional) Address to be set on the drone when connected to the network.
+                    Use a different address than the router's default.
+                    Set to "auto" or "dhcp" to let the router DHCP server auto-assign an IP.
+                    Default is "auto".
+  <droneip>       (optional) Current drone's ip address.
+                    Default is 192.168.1.1
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ [K]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect -h[K[K"Home 363[K44"  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"  =[K-p "[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[KDrone" -o[Kp  "password" 
+ESSID: Drone
+PASSWORD: password
+ADDRESS: 0.0.0.0
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "Drone" -p ""password" [K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[KHome 3644"  -p [K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"  -l[Kp "Cudd;e[K[Kles0721" -a 192.168.1.69
+ESSID: Home 3644
+PASSWORD: Cuddles0721
+ADDRESS: 192.168.1.69
+DRONE_IP: 192.168.1.1
+Connection closed by foreign host.
+]0;moe@moe-GE62-6QD: ~/Desktop/Drone/ardrone-wpa2-master[01;32mmoe@moe-GE62-6QD[00m:[01;34m~/Desktop/Drone/ardrone-wpa2-master[00m$ script/connect "Home 3644"  -p "Cuddles0721" -a 192.168.1.69
+ESSID: Home 3644

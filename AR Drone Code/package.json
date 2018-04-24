@@ -1,0 +1,22 @@
+{
+  "name": "drone_project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Drone Autonomous stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Drone"
+  ],
+  "author": "Moe Mohammad",
+  "license": "ISC",
+  "dependencies": {
+    "cognitive-services": "^1.0.0",
+    "mscs-face-api": "^0.1.3",
+    "project-oxford": "^1.10.0",
+    "request": "^2.83.0",
+    "sonus": "^0.1.9"
+  }
+}
