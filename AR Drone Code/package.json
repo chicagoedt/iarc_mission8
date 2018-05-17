@@ -2,7 +2,7 @@
   "name": "drone_project",
   "version": "1.0.0",
   "private": true,
-  "description": "Drone Autonomous stuff",
+  "description": "IARC Drone Autonomy Code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "keywords": [
     "Drone"
   ],
-  "author": "Moe Mohammad",
+  "author": "Chicago EDT IARC",
   "license": "ISC",
   "dependencies": {
     "cognitive-services": "^1.0.0",
