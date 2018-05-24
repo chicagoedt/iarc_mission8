@@ -1,5 +1,5 @@
 const int trigPin = 9; //pin connected to arduino, sensor trigger
-const int echoPin = 8; //pin connected to arduino, sensor echo
+const int echoPin = 10; //pin connected to arduino, sensor echo
 
 long duration;
 int distCm, distInch;
@@ -29,6 +29,6 @@ void loop() {
 //  Serial.print("Distance in inches: ");
   Serial.println(distInch);
 
-  delay(20);
+  delay(1000);
 }
 
