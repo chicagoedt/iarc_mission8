@@ -1,14 +1,14 @@
 
-#define frontTrig 1
-#define frontEcho 2
-#define backTrig 3
-#define backEcho 4
-#define leftTrig 5
-#define leftEcho 6
-#define rightTrig 7
-#define rightEcho 8
+#define frontTrig 2
+#define frontEcho 3
+#define backTrig 4
+#define backEcho 5
+#define leftTrig 6
+#define leftEcho 7
+#define rightTrig 8
+#define rightEcho 9
 
-#define limit 80
+#define limit 5
 
 void setup() {
   Serial.begin(9600);
@@ -24,47 +24,82 @@ void setup() {
 
 void loop() {
   //SETUP front
+  long frontDuration, frontDistance;
+  digitalWrite(frontTrig, LOW);
+  delayMicroseconds(2);
+  digitalWrite(frontTrig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(frontTrig, LOW);
+  frontDuration = pulseIn(frontEcho, HIGH);
+  frontDistance = frontDuration * 0.034 / 2;
+  
   //SETUP back
+  long backDuration, backDistance;
+  digitalWrite(backTrig, LOW);
+  delayMicroseconds(2);
+  digitalWrite(backTrig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(backTrig, LOW);
+  backDuration = pulseIn(backEcho, HIGH);
+  backDistance = backDuration * 0.034 / 2;
+  
   //SETUP left
+  long leftDuration, leftDistance;
+  digitalWrite(leftTrig, LOW);
+  delayMicroseconds(2);
+  digitalWrite(leftTrig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(leftTrig, LOW);
+  leftDuration = pulseIn(leftEcho, HIGH);
+  leftDistance = leftDuration * 0.034 / 2;
+  
   //SETUP right
-
+  long rightDuration, rightDistance;
+  digitalWrite(rightTrig, LOW);
+  delayMicroseconds(2);
+  digitalWrite(rightTrig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(rightTrig, LOW);
+  rightDuration = pulseIn(rightEcho, HIGH);
+  rightDistance = rightDuration * 0.034 / 2;
+  
 /* 4 sensors detect */
- if(front < limit && back < limit && left < limit && right < limit)
+ if(frontDistance < limit && backDistance < limit && leftDistance < limit && rightDistance < limit)
     Serial.println("E");
 
 /* Three sensors detect */
-  else if(back < limit && left < limit && right < limit)
+  else if(backDistance < limit && leftDistance < limit && rightDistance < limit)
     Serial.println("F");
-  else if(front < limit && left < limit && right < limit)
+  else if(frontDistance < limit && leftDistance < limit && rightDistance < limit)
     Serial.println("B");
-  else if(front < limit && back < limit && right < limit)
+  else if(frontDistance < limit && backDistance < limit && rightDistance < limit)
     Serial.println("L");
-  else if(front < limit && back < limit && left < limit)
+  else if(frontDistance < limit && backDistance < limit && leftDistance < limit)
     Serial.println("R");
     
 /* Two sensors detect */
-  else if(front < limit && back < limit)
+  else if(frontDistance < limit && backDistance < limit)
     Serial.println("LR");
-  else if(front < limit && left < limit)
+  else if(frontDistance < limit && leftDistance < limit)
     Serial.println("BR");
-  else if(front < limit && right < limit)
+  else if(frontDistance < limit && rightDistance < limit)
     Serial.println("BL");
-  else if(back < limit && left < limit)
+  else if(backDistance < limit && leftDistance < limit)
     Serial.println("FR");
-  else if(back < limit && right < limit)
+  else if(backDistance < limit && rightDistance < limit)
     Serial.println("FL");
-  else if(left < limit && right < limit)
+  else if(leftDistance < limit && rightDistance < limit)
     Serial.println("FB");
   
     
 /* One sensor detect */
-  else if(front < limit)
+  else if(frontDistance < limit)
     Serial.println("BLR");
-  else if(back < limit)
+  else if(backDistance < limit)
     Serial.println("FLR");
-  else if(left < limit)
+  else if(leftDistance < limit)
     Serial.println("FBR");
-  else if(right < limit)
+  else if(rightDistance < limit)
     Serial.println("FBL");
     
 /* No possible collisions detected, continue */

@@ -30,6 +30,7 @@ function onData(data){
     client.stop();
     if(data < 10 && data != 0) {
     	console.log('COLLISION WILL HAPPEN');
+    	//run normal mission
     	client.front(.2);
     	client.after(3000, function() { //delay in ms
 				client.stop();
