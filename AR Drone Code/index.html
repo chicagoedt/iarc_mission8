@@ -1,5 +1,5 @@
 <html>
-<script language='javascript'>
+<script language='javascript' src="speech.1.0.0.js">
 function call(name) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', name, true);
@@ -10,15 +10,15 @@ function reloadIFrame() {
  document.getElementById("iframe_DroneImage").src="http://localhost:3000/DroneImage.html";
 }
 </script>
-<body>
+<body onLoad="clearText();">
 <table border=1>
 <tr>
     <td align ="center">
-       <iframe src="http://localhost:3000/DroneImage.html" height="640" width="700" name="iframe_DroneImage"></iframe>
+    <textarea align="center" rows="1" id="output" style='width:400px;'></textarea>  <p>   <iframe src="http://localhost:3000/DroneImage.html" height="640" width="700" name="iframe_DroneImage"></iframe>
    </td>
     <td>
         <table cellpadding="4">
-        <tr>
+   <tr> <td align="center"> <a onclick="start();"><img height="70" width="70" src="microphone.png"></a> </td> </tr>     <tr>
           <td align="center">
               <a onclick="call('takeoff');"><img height=70 Width=70 src="http://localhost:3000/takeoff.png"></a>
           </td>
