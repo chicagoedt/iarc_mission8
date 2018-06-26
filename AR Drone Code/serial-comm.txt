@@ -1,0 +1,13 @@
+Run mission code
+Have mission code send out signal that currently shows 
+  what drone is doing
+If what ever the mission code is doing aligns with 
+  output of serial-comm 
+  	(either it's outputting the same movement or "C" for
+  	continue)
+then continue doing mission
+
+Otherwise look at alternatives
+stop? 
+design a plan to go to in different direction
+

@@ -10,30 +10,53 @@ client.takeoff();
 
 
 var serialport = require('serialport');
-var portName = process.argv[2];
+var portName = ""; //change so we can use diff ones
+
 
 var myPort = new serialport(portName, {
-    baudRate: 9600,
-    parser: new serialport.parsers.Readline('\r\n')
+  baudRate: 9600,
+  parser: new serialport.parsers.Readline('\r\n')
 });
 
-myPort.on('open', onOpen);
-myPort.on('data', onData);
 
+myPort.on('open', onOpen);
+//myPort.on('data', onData); //change so it runs with the right data input
+
+/* Runs when a new connection is made with the port
+ * Lets user know an open connection has been made
+ */
 function onOpen(){
-    console.log('Open connection: ' + portName);
-    data = 10;
+  console.log('Open connection: ' + portName);
+  data = 10;
 }
 
-function onData(data){
-    console.log('On Data ' + data);
+/* Runs when data is inputted by the port
+ * Detects if the data given is less than the trigger
+ *   and moves drone accordingly
+ */
+const trigger = 10;
+function onDataNumbers(data){
+  console.log('Data: ' + data);
+  client.stop();
+  if(data < trigger && data != 0) {
+    console.log('COLLISION WILL HAPPEN');
+    //run normal mission
+    client.front(.2);
+    client.after(3000, function() { //delay in ms
+      client.stop();
+    });
+  }
+}
+
+/* Runs when data is inputted by the port
+ * Detects what direction the drone should move given by data
+ */
+function onDataDirection(data) {
+  console.log('Dir: ' + data);
+  client.stop();
+  //interpret serial direction
+
+  client.after(3000, function() {
     client.stop();
-    if(data < 10 && data != 0) {
-    	console.log('COLLISION WILL HAPPEN');
-    	//run normal mission
-    	client.front(.2);
-    	client.after(3000, function() { //delay in ms
-				client.stop();
-			});
-    }
+  }); //adds delay in ms
 }
