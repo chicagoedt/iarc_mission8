@@ -1,21 +1,79 @@
+// new version that works
 <html>
-<script language='javascript'>function call(name) {
+<script language='javascript' src="speech.1.0.0.js"></script>
+<script language='javascript'>
+
+
+
+function call(name) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', name, true);
   xhr.send();
 }
+
+
+function callme(text) {
+    var xhr1 = new XMLHttpRequest();
+    xhr1.open('GET', 'http://localhost:3000/audio?inputspeech=' + text, true);
+    xhr1.send();
+}
+
+function clearText() {
+    document.getElementById("output").value = "Not Currently Looking For Someone";
+}
+
+function setText(text) {
+    document.getElementById("output").value = text;
+}
+
+function capitalizeEachWord(str) {
+    return str.replace(/\w\S/g, function (txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
+
+function start() {
+    var mode = Microsoft.CognitiveServices.SpeechRecognition.SpeechRecognitionMode.shortPhrase;
+    var apiKey = "f070e23e6b794b51bc2b1065763ee241";
+    var language = "en-GB";
+    clearText();
+    speechclient = Microsoft.CognitiveServices.SpeechRecognition.SpeechRecognitionServiceFactory.createMicrophoneClient(mode, language, apiKey);
+    speechclient.startMicAndRecognition();
+    setTimeout(function () {
+        speechclient.endMicAndRecognition();
+    }, 5000);
+
+    speechclient.onFinalResponseReceived = function (response) {
+        var text = JSON.stringify(response[0].display);
+        text = capitalizeEachWord(text);
+        text = text.replace(/"/gi, '');
+        text = text.slice(5, text.length - 1);
+        setText("Searching For " + text + " Now!!");
+        callme(text);
+    }
+}
+
 window.setInterval("reloadIFrame();", 4000);
 function reloadIFrame() {
  document.getElementById("iframe_DroneImage").src="http://localhost:3000/DroneImage.html";
-}</script>
-<body>
+}
+</script>
+
+<body onLoad="clearText();">
     <table border=1>
         <tr>
             <td align="center">
-                <iframe src="http://localhost:3000/DroneImage.html" height="640" width="700" name="iframe_DroneImage"></iframe>
+                <textarea align="center" rows="1" id="output" style='width:400px;'></textarea>
+                <p>
+                    <iframe src="http://localhost:3000/DroneImage.html" height="640" width="700" name="iframe_DroneImage"></iframe>
             </td>
             <td>
                 <table cellpadding="4">
+                    <tr>
+                        <td align="center">
+                            <a onclick="start();"><img height="70" width="70" src="microphone.png"></a>
+                        </td>
+                    </tr>
                     <tr>
                         <td align="center">
                             <a onclick="call('takeoff');"><img height=70 Width=70 src="http://localhost:3000/takeoff.png"></a>
@@ -65,6 +123,6 @@ function reloadIFrame() {
             </td>
         </tr>
     </table>
-    </div>
 </body>
 </html>
+
